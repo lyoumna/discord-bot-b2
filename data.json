@@ -1,0 +1,70 @@
+{
+  "history": [],
+  "tree": {
+    "key": "start",
+    "prompt": "Bonjour ! Tu veux parler de 'jeu', 'travail' ou 'loisir' ?",
+    "conclusion": null,
+    "children": [
+      {
+        "key": "jeu",
+        "prompt": "Tu préfères 'video' ou 'table' ?",
+        "conclusion": null,
+        "children": [
+          {
+            "key": "video",
+            "prompt": "Tu joues plutôt sur PC ou console ?",
+            "conclusion": "Tu es un fan de jeux vidéo",
+            "children": []
+          },
+          {
+            "key": "table",
+            "prompt": "Stratégie ou familial ?",
+            "conclusion": "Tu aimes les jeux de société",
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": "travail",
+        "prompt": "Tu es 'étudiant' ou 'professionnel' ?",
+        "conclusion": null,
+        "children": [
+          {
+            "key": "étudiant",
+            "prompt": "C'est quoi ton domaine ?",
+            "conclusion": "Tu es un étudiant motivé",
+            "children": []
+          },
+          {
+            "key": "professionnel",
+            "prompt": "Tu bosses en bureau ou remote ?",
+            "conclusion": "Professionnel confirmé",
+            "children": []
+          }
+        ]
+      },
+      {
+        "key": "loisir",
+        "prompt": "Plutôt 'sport' ou 'créatif' ?",
+        "conclusion": null,
+        "children": [
+          {
+            "key": "sport",
+            "prompt": "Quel sport pratiques-tu ?",
+            "conclusion": "Sportif dans l'âme",
+            "children": []
+          },
+          {
+            "key": "créatif",
+            "prompt": "Peinture, écriture ou musique ?",
+            "conclusion": "Très créatif",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "user_states": {},
+  "warnings": {},
+  "guess_games": {}
+}
